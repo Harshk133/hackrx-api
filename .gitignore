@@ -1,0 +1,64 @@
+# Python cache / build
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+*.sqlite3
+db.sqlite3
+instance/
+/node_modules/
+
+# Virtual environment
+myenv/
+.env
+.env.local
+.env.*.local
+
+# VSCode / IDE
+.vscode/
+.idea/
+*.swp
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Pydantic cache
+.pytest_cache/
+.mypy_cache/
+.pdm-python
+
+# Dependencies build
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# Local data files (if any)
+data/
+uploads/
+
+# RAG / Vector store cache (if generated locally)
+vectorstore/
+*.pinecone
+*.faiss
+*.chroma
+
+# Environment template (keep for sharing, ignore real one)
+!.env.template
+
+
+.env
+.myenv
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+railway.json
+docker-compose.yml
+Dockerfile
