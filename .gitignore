@@ -62,3 +62,4 @@ __pycache__/
 railway.json
 docker-compose.yml
 Dockerfile
+.vercel
