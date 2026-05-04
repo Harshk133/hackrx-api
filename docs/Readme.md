@@ -45,3 +45,6 @@ project_root/
 ├── requirements.txt               # Python dependencies
 ├── run.py                         # Runs the FastAPI app with uvicorn
 └── README.md                      # This documentation
+
+
+Give  a Star 🌟 to this Repository!
